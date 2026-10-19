@@ -70,8 +70,8 @@ h1 {
 .headshot {
   display: block;
   margin-top: 40px;
-  width: 50px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;   /* crops instead of squashing if the photo isn't square */
   border-radius: 50%;  /* makes it a circle */
   margin: 30px auto;   /* centres it horizontally */
