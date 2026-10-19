@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophia Quach</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+/* Core resets and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  padding: 20px;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Horizontal alignment with Flexbox */
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Spaces out the button items */
+  align-items: center;
+}
+
+/* Transforming links into buttons */
+.menu-btn {
+  text-decoration: none;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.menu-btn:hover {
+  background-color: #e2e8f0;
+  color: #000000;
+}
+
+/* Active/Selected page button state */
+.menu-btn.active {
+  background-color: #3182ce;
+  color: #ffffff;
+}
+
+/* Call-to-Action button variation (Optional) */
+.menu-btn.contact-btn {
+  background-color: #2fb574;
+  color: #ffffff;
+  margin-left: auto; /* Pushes the contact button to the far right side */
+}
+
+.menu-btn.contact-btn:hover {
+  background-color: #24965f;
+  transform: translateY(-1px); /* Slight lift animation */
+}
